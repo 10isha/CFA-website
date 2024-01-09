@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width: 568px) {
+  :root {
+    font-size: calc(16px + 6 * ((100vw - 568px) / (768 - 568)));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 20px;
+  }
+}
