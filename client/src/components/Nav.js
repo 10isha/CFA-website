@@ -30,7 +30,7 @@ export const Nav = () => {
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
               <span className="ml-2 text-xl font-bold tracking-wide text-black-100 uppercase">
-                Company
+                Winter Analytics
               </span>
             </a>
             <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -54,16 +54,7 @@ export const Nav = () => {
                   Features
                 </a>
               </li>
-              <li>
-                <a
-                  href="/"
-                  aria-label="Product pricing"
-                  title="Product pricing"
-                  className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
-                >
-                  Pricing
-                </a>
-              </li>
+              
               <li>
                 <a
                   href="/"
@@ -77,24 +68,15 @@ export const Nav = () => {
             </ul>
           </div>
           <ul className="flex items-center hidden space-x-8 lg:flex">
+            
             <li>
               <a
-                href="/"
-                aria-label="Sign in"
-                title="Sign in"
-                className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                Sign in
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
+                href="/coarse"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
-                Sign up
+                Access Coarse Material
               </a>
             </li>
           </ul>

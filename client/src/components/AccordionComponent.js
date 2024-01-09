@@ -28,7 +28,8 @@ export default function AccordionComponent({selectedKeysSideBar}) {
               aria-label="Example static collection table"
               removeWrapper
             >
-              <TableHeader >
+              <TableHeader 
+              >
                 <TableColumn className="text-black ">Week 1</TableColumn>
                 <TableColumn className="text-black">Learnings</TableColumn>
                 <TableColumn className="text-black">Quest 1</TableColumn>

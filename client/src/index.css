@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 @media screen and (min-width: 568px) {
   :root {
     font-size: calc(16px + 6 * ((100vw - 568px) / (768 - 568)));

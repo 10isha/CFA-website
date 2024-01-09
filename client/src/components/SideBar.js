@@ -1,7 +1,7 @@
 // Sidebar.js
 
 import React, { useState } from "react";
-import MaterialIcon, { colorPalette } from "material-icons-react";
+// import MaterialIcon, { colorPalette } from "material-icons-react";
 import {
   Divider,
   Modal,
@@ -104,7 +104,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             onOpen();
           }}
         >
-          <MaterialIcon icon="calendar_month" />
+          {/* <MaterialIcon icon="calendar_month" /> */}
           <p>Schedule</p>
           {activeModal === 0 && modal[activeModal]}
         </li>
@@ -115,7 +115,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             onOpen();
           }}
         >
-          <MaterialIcon icon="military_tech" />
+          {/* <MaterialIcon icon="military_tech" /> */}
           <p>Leaderboard</p>
           {activeModal === 1 && modal[activeModal]}
         </li>
@@ -126,7 +126,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["1"]));
           }}
         >
-          <MaterialIcon icon="menu_book" />
+          {/* <MaterialIcon icon="menu_book" /> */}
           Week 1
         </li>
         <li
@@ -135,7 +135,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["2"]));
           }}
         >
-          <MaterialIcon icon="menu_book" />
+          {/* <MaterialIcon icon="menu_book" /> */}
           Week 2
         </li>
         <li
@@ -144,7 +144,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["3"]));
           }}
         >
-          <MaterialIcon icon="menu_book" />
+          {/* <MaterialIcon icon="menu_book" /> */}
           Week 3
         </li>
         <li
@@ -153,7 +153,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["4"]));
           }}
         >
-          <MaterialIcon icon="menu_book" />
+          {/* <MaterialIcon icon="menu_book" /> */}
           Week 4
         </li>
         <li
@@ -162,7 +162,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["5"]));
           }}
         >
-          <MaterialIcon icon="menu_book" />
+          {/* <MaterialIcon icon="menu_book" /> */}
           Week 5
         </li>
         <li
@@ -171,7 +171,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["6"]));
           }}
         >
-          <MaterialIcon icon="menu_book" />
+          {/* <MaterialIcon icon="menu_book" /> */}
           Week 6
         </li>
         {/* Add more items as needed */}
