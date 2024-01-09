@@ -4,12 +4,35 @@
 
 @media screen and (min-width: 568px) {
   :root {
-    font-size: calc(15px + 6 * ((100vw - 568px) / (768 - 568)));
+    font-size: calc(16px + 6 * ((100vw - 568px) / (768 - 568)));
   }
+}
+
+@keyframes blink {
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: white;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+    visibility: hidden;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-typing {
+  animation: typing 2s steps(20) infinite alternate, blink 0.7s infinite;
 }
 
 @media screen and (min-width: 768px) {
   :root {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
