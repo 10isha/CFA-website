@@ -101,7 +101,7 @@ export default function  Content() {
           </div>
         </div>
 
-      </div>
+      </div> 
       
     );
   };

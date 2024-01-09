@@ -1,25 +1,14 @@
-import React, { useState } from 'react'
-import { Nav } from '../components/Nav'
+import React, {useState} from 'react'
+import {Nav} from '../components/Nav'
 import SideSection from '../components/SideSection'
-import Content from '../components/content'
-import '../index.css'
-import Icon from '@mui/material/Icon';
-{/* <link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/> */}
-
+import {Statistic} from '../components/Statistic'
+import Testimonial from '../components/Testimonial'
+import Footer from '../components/Footer'
 
 export default function LandingPage() {
   return (
     <div>
       <Nav />
-     
-     
-      
-      <br /><br />
-      <SideSection />
-      <Content />
       <br/><br/>
       <SideSection />
       <br/><br/>
@@ -33,3 +22,4 @@ export default function LandingPage() {
     </div>
   )
 }
+
