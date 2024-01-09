@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
-import MaterialIcon, { colorPalette } from "material-icons-react";
-
+// import MaterialIcon, { colorPalette } from "material-icons-react";
+import Icon from '@mui/material/Icon';
 export default function SideSection() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
@@ -9,7 +9,7 @@ export default function SideSection() {
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
             <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">
-              Registrations Closed
+              Registrations Open
             </span>
             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
               A PRIMER COURSE ON DATA SCIENCE AND MACHINE LEARNING
@@ -23,16 +23,16 @@ export default function SideSection() {
             </div>
             <br />
             <div className="border-l-4 border-#3F51B5 lg:border-l-4 lg:border-#3F51B5 p-1 px-2">
-              <MaterialIcon icon="query_builder_icon" />
-              <span className="-ml-20">6 weeks + projects</span>
+              <div className="flex flex-row  gap-2">
+              <Icon  sx={{ fontSize: 30 }}>query_builder_icon</Icon>8 weeks + projects</div>
               <br />
               <br />
-              <MaterialIcon icon="location_on_icon" />
-              <span className="-ml-20">Online</span>
+              <div className="flex flex-row gap-2 ">
+              <Icon  sx={{ fontSize: 30 }}> location_on_icon</Icon> Online</div>
               <br />
               <br />
-              <MaterialIcon icon="auto_stories_icon" />
-              <span className="-ml-20">Prerequisites: None!</span>
+              <div className="flex flex-row gap-2">
+              <Icon  sx={{ fontSize: 30 }}>auto_stories_icon</Icon>Prerequisites: None!</div>
             </div>
           </div>
         </div>

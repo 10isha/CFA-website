@@ -24,7 +24,7 @@ export default function Testimonial() {
                 </div>
                 <div className="lg:w-1/3 lg:mb-0 p-4">
                     <div className="h-full text-center">
-                    <p className="leading-relaxed">"Thanks to Consulting & Analytics Club, IIT Guwahati, and the team members for making the program truthful. The knowledge I acquire during the program will enable me to develop a keener business acumen to make a lasting impact on society. Finally, your aim to help students explore data analytics has been achieved. We are grateful."</p>
+                    <p className="leading-relaxed">"Thanks to Consulting ,Finance& Analytics Club, IIT Indore, and the team members for making the program truthful. The knowledge I acquire during the program will enable me to develop a keener business acumen to make a lasting impact on society. Finally, your aim to help students explore data analytics has been achieved. We are grateful."</p>
                     <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
                     <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">Olajide Sodiq Olalekan</h2>
                     <p className="text-gray-500">Financial Analyst, Nigeria</p>
