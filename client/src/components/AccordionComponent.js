@@ -10,8 +10,6 @@ import {
 } from "@nextui-org/react";
 
 export default function AccordionComponent({selectedKeysSideBar}) {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   const [selectedKeys, setSelectedKeys] = React.useState(new Set());
   React.useEffect(() => {
     setSelectedKeys(selectedKeysSideBar);
@@ -30,8 +28,8 @@ export default function AccordionComponent({selectedKeysSideBar}) {
               aria-label="Example static collection table"
               removeWrapper
             >
-              <TableHeader>
-                <TableColumn className="text-black">Week 1</TableColumn>
+              <TableHeader >
+                <TableColumn className="text-black ">Week 1</TableColumn>
                 <TableColumn className="text-black">Learnings</TableColumn>
                 <TableColumn className="text-black">Quest 1</TableColumn>
                 <TableColumn className="text-black">Quest 2</TableColumn>

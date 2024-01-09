@@ -4,12 +4,12 @@
 
 @media screen and (min-width: 568px) {
   :root {
-    font-size: calc(16px + 6 * ((100vw - 568px) / (768 - 568)));
+    font-size: calc(15px + 6 * ((100vw - 568px) / (768 - 568)));
   }
 }
 
 @media screen and (min-width: 768px) {
   :root {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
