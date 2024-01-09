@@ -6,7 +6,7 @@ export default function HomePage() {
   const [selectedKeys, setSelectedKeys] = React.useState(new Set());
   return (
     <>
-    <div className='fixed top-0 left-0 w-full'>
+    <div className='fixed top-0 left-0 w-full z-20'>
     <NavbarComponent/></div>
     <div className='flex flex-row mt-20'>
     <SideBar setSelectedKeys={setSelectedKeys}/>
