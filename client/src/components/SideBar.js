@@ -1,5 +1,5 @@
 // Sidebar.js
-
+import Icon from '@mui/material/Icon';
 import React, { useState } from "react";
 // import MaterialIcon, { colorPalette } from "material-icons-react";
 import {
@@ -66,18 +66,18 @@ const Sidebar = ({ setSelectedKeys }) => {
         {(onClose) => (
           <>
             <ModalHeader className="flex flex-col gap-1 font-semibold">
-            Leaderboard week 1 | Summer Analytics
+            Leaderboard week 1 | Winter Analytics
             </ModalHeader>
             <ModalBody>
               <div className="flex flex-col w-full gap-2">
                 <p>Leaderboard for Quiz and Assignment 1</p>
                 <div className="flex flex-row gap-4"><p>1</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
-                <div className="flex flex-row gap-4"><p>1</p><p>Jahnavi kumar</p></div>
+                <div className="flex flex-row gap-4"><p>2</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
-                <div className="flex flex-row gap-4"><p>1</p><p>Jahnavi kumar</p></div>
+                <div className="flex flex-row gap-4"><p>3</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
-                <div className="flex flex-row gap-4"><p>1</p><p>Jahnavi kumar</p></div>
+                <div className="flex flex-row gap-4"><p>4</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
               </div>
             </ModalBody>
@@ -104,6 +104,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             onOpen();
           }}
         >
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
           {/* <MaterialIcon icon="calendar_month" /> */}
           <p>Schedule</p>
           {activeModal === 0 && modal[activeModal]}
@@ -116,6 +117,7 @@ const Sidebar = ({ setSelectedKeys }) => {
           }}
         >
           {/* <MaterialIcon icon="military_tech" /> */}
+          <Icon sx={{ fontSize: 30 }}>leaderboard</Icon>
           <p>Leaderboard</p>
           {activeModal === 1 && modal[activeModal]}
         </li>
@@ -127,7 +129,9 @@ const Sidebar = ({ setSelectedKeys }) => {
           }}
         >
           {/* <MaterialIcon icon="menu_book" /> */}
-          Week 1
+          <div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 1</div>
         </li>
         <li
           className="py-2 border-b border-gray-300"
@@ -136,7 +140,9 @@ const Sidebar = ({ setSelectedKeys }) => {
           }}
         >
           {/* <MaterialIcon icon="menu_book" /> */}
-          Week 2
+          <div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 2</div>
         </li>
         <li
           className="py-2 border-b border-gray-300"
@@ -145,7 +151,9 @@ const Sidebar = ({ setSelectedKeys }) => {
           }}
         >
           {/* <MaterialIcon icon="menu_book" /> */}
-          Week 3
+            <div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 3</div>
         </li>
         <li
           className="py-2 border-b border-gray-300"
@@ -153,8 +161,9 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["4"]));
           }}
         >
-          {/* <MaterialIcon icon="menu_book" /> */}
-          Week 4
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 4</div>
         </li>
         <li
           className="py-2 border-b border-gray-300"
@@ -162,8 +171,9 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["5"]));
           }}
         >
-          {/* <MaterialIcon icon="menu_book" /> */}
-          Week 5
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 5</div>
         </li>
         <li
           className="py-2 border-b border-gray-300"
@@ -171,8 +181,49 @@ const Sidebar = ({ setSelectedKeys }) => {
             setSelectedKeys(new Set(["6"]));
           }}
         >
-          {/* <MaterialIcon icon="menu_book" /> */}
-          Week 6
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 6</div>
+        </li>
+        <li
+          className="py-2 border-b border-gray-300"
+          onClick={() => {
+            setSelectedKeys(new Set(["7"]));
+          }}
+        >
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 7</div>
+        </li>
+        <li
+          className="py-2 border-b border-gray-300"
+          onClick={() => {
+            setSelectedKeys(new Set(["8"]));
+          }}
+        >
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>menu_book</Icon>
+          Week 8</div>
+        </li>
+        <li
+          className="py-2 border-b border-gray-300"
+          onClick={() => {
+            setSelectedKeys(new Set(["9"]));
+          }}
+        >
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>edit</Icon>
+          Assessment</div>
+        </li>
+        <li
+          className="py-2 border-b border-gray-300"
+          onClick={() => {
+            setSelectedKeys(new Set(["10"]));
+          }}
+        >
+          {/* <MaterialIcon icon="menu_book" /> */}<div className='flex flex-row gap-2'>
+          <Icon sx={{ fontSize: 30 }}>notestack</Icon>
+          Additional Materials</div>
         </li>
         {/* Add more items as needed */}
       </ul>

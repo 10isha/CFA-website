@@ -36,34 +36,34 @@ export const Nav = () => {
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li>
                 <a
-                  href="/"
+                  href="/#about"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Product
+                  About
                 </a>
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/#stats"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Features
+                  stats
                 </a>
               </li>
               
               <li>
-                <a
+                {/* <a
                   href="/"
                   aria-label="About us"
                   title="About us"
                   className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   About us
-                </a>
+                </a> */}
               </li>
             </ul>
           </div>
@@ -76,7 +76,7 @@ export const Nav = () => {
                 aria-label="Sign up"
                 title="Sign up"
               >
-                Access Coarse Material
+                Access Course Material
               </a>
             </li>
           </ul>
