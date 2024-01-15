@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
 import {Nav} from '../components/Nav'
+import backgroundImage from "../logos/david-becker-crs2vlkSe98-unsplash.jpg"
+import backgroundImage2 from "../logos/—Pngtree—3d rendered concept illustrating data_5749893.jpg"
+
 import {
   Divider,
   Modal,
@@ -21,8 +24,15 @@ import {Statistic} from '../components/Statistic'
 import Testimonial from '../components/Testimonial'
 import Footer from '../components/Footer'
 import Content from "../components/content"
+
 export default function LandingPage() {
   return (
+    <>
+    <div className='relative'>
+    {/* <div
+      className="bg-cover top-0 absolute -z-20 left-0 bg-center opacity-75 h-[900px] w-screen flex items-center justify-center"
+      style={{ backgroundImage: `url(${backgroundImage})`}}
+    ></div> */}
     <div>
       <Nav />
       <br/><br/>
@@ -40,7 +50,8 @@ export default function LandingPage() {
       <Divider className="my-full" />
       <br/><br/>
       <Footer />
-    </div>
+    </div></div></>
+    
   )
 }
 
