@@ -3,6 +3,7 @@ import logo from "../logos/cga_logo_png.png"
 import Team from './Teamspage';
 import Icon from '@mui/material/Icon';
 // import Map1 from './Map1';
+import Events from './mainEvents';
 import Footer from './Footer';
 import backgroundImage from "../logos/kedrion-case-study-arithmos-reporting-and-analytics-pharmacovigilance.png"
 export default function Screen() {
@@ -16,9 +17,12 @@ export default function Screen() {
             <div className='rounded-full text-white font-bold  bg-blue-600 font-bold w-fit p-1'>Welcome to the</div>
             <p className='text-6xl font-bold'>CFA CLUB</p>
             <p className='text-4xl font-bold mt-2'>IIT Indore</p>
-            <p className='text-md'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-              into electronic typesetting, remaining essentially unchanged. </p>
+            <p className='text-md'>The Consulting, Finance, and Analytics Club at IIT Indore is
+a vibrant student body dedicated to guiding students through
+the dynamic realms of Finance, Management Consulting,
+and Data Science. Our vision encompasses nurturing
+non-core career opportunities by empowering members to
+explore the world beyond traditional engineering domains.. </p>
           </div>
         </div>
 
@@ -29,12 +33,14 @@ export default function Screen() {
         <div className='flex flex-col lg:flex-row mx-12 gap-12 mt-24 '>
           <div className='flex flex-col'>
             <div className='text-md font-bold mb-4'>Analytics</div>
-            <div className='text-sm text-justify mb-12'>Consulting is a professional service provided by experts or consultants with specialized knowledge and experience
-              in a particular field. The goal of consulting is to help individuals, businesses, or organizations solve problems, improve performance
-              , and achieve specific objectives Consulting is a professional service provided by experts or consultants with specialized knowledge
-              and experience in a particular field. The goal of consulting is to help individuals, businesses, or organizations solve problems,
-              improve performance, and achieve specific objectives. Consultants are hired to provide advice, analysis, and recommendations to their
-              clients based on their expertise</div>
+            <div className='text-sm text-justify mb-12'>we facilitate knowledge and skill development in Data
+Science, encompassing its integral role in data and the broader industry.This integration of data science and finance is reshaping the landscape and
+empowering professionals to make informed investment decisions driven
+by data-driven insights.
+landscape.Through workshops, events, and
+networking opportunities, we provide a platform for honing problem-solving
+and strategic thinking skills crucial for DataScience careers.
+</div>
           </div>
 
 
@@ -46,7 +52,12 @@ export default function Screen() {
 
           <div className='flex flex-col'>
             <div className='text-md font-bold mb-4'>Finance</div>
-            <div className='text-sm text-justify mb-12'>Consulting is a professional service provided by experts or consultants with specialized knowledge and experience in a particular field. The goal of consulting is to help individuals, businesses, or organizations solve problems, improve performance, and achieve specific objectives Consulting is a professional service provided by experts or consultants with specialized knowledge and experience in a particular field. The goal of consulting is to help individuals, businesses, or organizations solve problems, improve performance, and achieve specific objectives. Consultants are hired to provide advice, analysis, and recommendations to their clients based on their expertise</div>
+            <div className='text-sm text-justify mb-12'>We also delve into the intricacies of financial markets, fostering
+a comprehensive understanding of stocks and investment strategies.Through workshops, events, and
+networking opportunities, we provide a platform for honing problem-solving
+and strategic thinking skills crucial for Finance careers.
+
+</div>
           </div>
 
 
@@ -75,7 +86,11 @@ export default function Screen() {
 
       
 
-        <div id="event" className='text-4xl text-black font-bold w-full h-64 mt-12 mb-12 bg-white shadow-2xl text-center'>Events</div>
+        <div id="event" className='text-4xl text-black font-bold w-full h-full mt-12 mb-12 bg-white shadow-2xl text-center'>Events
+
+        <Events/>
+        
+        </div>
 
 
 
