@@ -86,9 +86,9 @@ and strategic thinking skills crucial for Finance careers.
 
       
 
-        <div id="event" className='text-4xl text-black font-bold w-full h-full mt-12 mb-12 bg-white shadow-2xl text-center'>Events
-
-        <Events/>
+        <div id="event" className='text-4xl text-black font-bold w-full  mt-12 mb-12 bg-white shadow-2xl text-center'>Events
+        <div className='max-h-[500px] md:overflow-y-auto overflow-x-auto'>
+        <Events/></div>
         
         </div>
 
@@ -106,7 +106,7 @@ and strategic thinking skills crucial for Finance careers.
           <div className='flex flex-col lg:flex-row mt-12 w-full '>
             <div className='flex flex-col gap-y-4 mt-24'>
               <p className='text-sm text-black font-bold flex flex-row gap-1 '> <Icon sx={{ fontSize: 30 }}>call</Icon> CFA Club</p>
-              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>call</Icon>565787565</p>
+              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>call</Icon>9130482382</p>
               <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>mail</Icon>CFA@.iiti.ac.in</p>
               <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>location_on</Icon>Indian Institute of Technology,Simrol,Indore,452020</p>
             </div>

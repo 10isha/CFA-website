@@ -24,7 +24,7 @@ export default function Team  (){
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold">Arunaditya Das</p>
-              <p className="mb-5 text-xs text-gray-800">Consultancy Head</p>
+              <p className="mb-5 text-xs text-gray-800  font-bold">Consultancy Head</p>
               <p className="-mt-4 text-xs text-gray-800">mems210005010@iiti.ac.in</p>
               <p className="text-xs text-gray-800">Contact : 9344446245</p>
               <div className="flex items-center space-x-3 sm:justify-center">
@@ -59,7 +59,7 @@ export default function Team  (){
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold">Tanisha Sahu</p>
-              <p className="mb-5 text-xs text-gray-800">Analytics Head</p>
+              <p className="mb-5 text-xs text-gray-800  font-bold">Analytics Head</p>
               <p className="-mt-4 text-xs text-gray-800">cse210001071@iiti.ac.in</p>
               <p className="text-xs text-gray-800">Contact : 9130482382</p>
               
@@ -93,9 +93,9 @@ export default function Team  (){
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold">Chetanya Sharma</p>
-              <p className="mb-5 text-xs text-gray-800">Finance and Quant Head</p>
+              <p className="mb-5 text-xs text-gray-800  font-bold ">Finance and Quant Head</p>
               <p className="-mt-4 text-xs text-gray-800">cfa@iiti.ac.in</p>
-              <p className="text-xs text-gray-800">Contact : 9344446245</p>
+              <p className="text-xs text-gray-800">Contact : 7470719780</p>
               <div className="flex items-center space-x-3 sm:justify-center">
                 <a
                   href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADbRwpcBAG6Ge8N2iUXwa8R3Ivbh8vmLpS8&keywords=chetanya%20sharma&origin=RICH_QUERY_SUGGESTION&position=0&searchId=1bfa0e54-daae-483c-9ea2-2fd120cb5dac&sid=y)W&spellCorrectionEnabled=false"
