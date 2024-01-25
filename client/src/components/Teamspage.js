@@ -23,8 +23,8 @@ export default function Team  (){
               />
             </div>
             <div className="flex flex-col sm:text-center">
-              <p className="text-lg font-bold">Arunaditya Das</p>
-              <p className="mb-5 text-xs text-gray-800  font-bold">Consultancy Head</p>
+              <p className="text-lg font-bold">Arunaditya Dash</p>
+              <p className="mb-5 text-xs text-gray-800  font-bold">Consulting and Product Management Head</p>
               <p className="-mt-4 text-xs text-gray-800">mems210005010@iiti.ac.in</p>
               <p className="text-xs text-gray-800">Contact : 9344446245</p>
               <div className="flex items-center space-x-3 sm:justify-center">
@@ -59,7 +59,7 @@ export default function Team  (){
             </div>
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold">Tanisha Sahu</p>
-              <p className="mb-5 text-xs text-gray-800  font-bold">Analytics Head</p>
+              <p className="mb-5 text-xs text-gray-800  font-bold">Data Science and Analytics Head</p>
               <p className="-mt-4 text-xs text-gray-800">cse210001071@iiti.ac.in</p>
               <p className="text-xs text-gray-800">Contact : 9130482382</p>
               
@@ -94,7 +94,7 @@ export default function Team  (){
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold">Chetanya Sharma</p>
               <p className="mb-5 text-xs text-gray-800  font-bold ">Finance and Quant Head</p>
-              <p className="-mt-4 text-xs text-gray-800">cfa@iiti.ac.in</p>
+              <p className="-mt-4 text-xs text-gray-800">ce210004010@iiti.ac.in</p>
               <p className="text-xs text-gray-800">Contact : 7470719780</p>
               <div className="flex items-center space-x-3 sm:justify-center">
                 <a
