@@ -33,7 +33,7 @@ explore the world beyond traditional engineering domains.. </p>
         <div className='flex flex-col lg:flex-row mx-12 gap-12 mt-24 '>
           <div className='flex flex-col'>
             <div className='text-md font-bold mb-4'>Analytics</div>
-            <div className='text-sm text-justify mb-12'>we facilitate knowledge and skill development in Data
+            <div className='text-sm text-justify mb-12'>We facilitate knowledge and skill development in Data
 Science, encompassing its integral role in data and the broader industry.This integration of data science and finance is reshaping the landscape and
 empowering professionals to make informed investment decisions driven
 by data-driven insights.
@@ -107,10 +107,10 @@ At our events, you can join discussions about what's happening in the market, wh
           <div className='text-4xl text-black font-bold mt-12 text-center w-full  '>Contact Us</div>
           <div className='flex flex-col lg:flex-row mt-12 w-full '>
             <div className='flex flex-col gap-y-4 mt-24'>
-              <p className='text-sm text-black font-bold flex flex-row gap-1 '> <Icon sx={{ fontSize: 30 }}>call</Icon> CFA Club</p>
-              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>call</Icon>9130482382</p>
-              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>mail</Icon>CFA@.iiti.ac.in</p>
-              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>location_on</Icon>Indian Institute of Technology,Simrol,Indore,452020</p>
+              {/* <p className='text-sm text-black font-bold flex flex-row gap-1 '> <Icon sx={{ fontSize: 30 }}>call</Icon>CFA Club</p> */}
+              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>call</Icon>CFA Club: +91 9130482382</p>
+              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>mail</Icon>cfa.iiti.ac.in</p>
+              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>location_on</Icon>Indian Institute of Technology Indore,Simrol,452020</p>
             </div>
             {/* <Map1/> */}
 
