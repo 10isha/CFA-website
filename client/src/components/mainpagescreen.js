@@ -52,10 +52,12 @@ and strategic thinking skills crucial for DataScience careers.
 
           <div className='flex flex-col'>
             <div className='text-md font-bold mb-4'>Finance</div>
-            <div className='text-sm text-justify mb-12'>We also delve into the intricacies of financial markets, fostering
-a comprehensive understanding of stocks and investment strategies.Through workshops, events, and
-networking opportunities, we provide a platform for honing problem-solving
-and strategic thinking skills crucial for Finance careers.
+            <div className='text-sm text-justify mb-12'>We make learning hands-on by using simulations and real examples, helping you understand how financial markets really work.
+
+Our workshops go beyond the basics. We talk about things like managing risks, optimizing your investment portfolio, 
+and creating financial models. You'll get to learn from experts in the field, getting insider insights into the finance industry.
+At our events, you can join discussions about what's happening in the market, what factors affect it, and what's going on
+ globally. It's not just about learning – it's also a chance to meet people in the industry and make valuable connections.
 
 </div>
           </div>

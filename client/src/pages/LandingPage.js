@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {Nav} from '../components/Nav'
 import backgroundImage from "../logos/david-becker-crs2vlkSe98-unsplash.jpg"
 import backgroundImage2 from "../logos/—Pngtree—3d rendered concept illustrating data_5749893.jpg"
+import backgroundImage3 from "../logos/anawall.jpg"
 
 import {
   Divider,
@@ -29,10 +30,10 @@ export default function LandingPage() {
   return (
     <>
     <div className='relative'>
-    {/* <div
-      className="bg-cover top-0 absolute -z-20 left-0 bg-center opacity-75 h-[900px] w-screen flex items-center justify-center"
-      style={{ backgroundImage: `url(${backgroundImage})`}}
-    ></div> */}
+    <div
+      className="bg-cover -top-80 absolute -z-20 left-0 bg-center opacity-90 h-[1200px] w-full flex items-center justify-center"
+      style={{ backgroundImage: `url(${backgroundImage3})`}}
+    ></div>
     <div>
       <Nav />
       <br/><br/>

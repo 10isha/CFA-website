@@ -23,15 +23,15 @@ export default function SideSection() {
             </div>
             <br />
             <div className="border-l-4 border-#3F51B5 lg:border-l-4 lg:border-#3F51B5 p-1 px-2">
-              <div className="flex flex-row  gap-2">
+              <div className="flex flex-row text-black  gap-2 font-bold">
               <Icon  sx={{ fontSize: 30 }}>query_builder_icon</Icon>8 weeks + projects</div>
               <br />
               <br />
-              <div className="flex flex-row gap-2 ">
+              <div className="flex flex-row gap-2 text-black font-bold ">
               <Icon  sx={{ fontSize: 30 }}> location_on_icon</Icon> Online</div>
               <br />
               <br />
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-2 text-black font-bold ">
               <Icon  sx={{ fontSize: 30 }}>auto_stories_icon</Icon>Prerequisites: None!</div>
             </div>
           </div>
