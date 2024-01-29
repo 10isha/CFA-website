@@ -79,8 +79,8 @@ At our events, you can join discussions about what's happening in the market, wh
           <div className='flex flex-col border-l-4 border-white gap-2 p-4 pl-8 mt-24 ml-4'>
 
             <p className='text-6xl font-bold text-white'>WINTER ANALYTICS</p>
-            <p className='text-4xl mt-2 text-white'>A PRIMER COURSE ON DATA SCIENCE AND MACHINE LEARNING</p>
-            <div className='rounded-full text-white font-bold  bg-blue-600 font-bold w-fit p-1 px-4 hover:bg-blue-700 '><a href="/home">Register</a></div>
+            <p className='text-4xl mt-2 text-white'>A DEEP DIVE INTO DATA SCIENCE AND MACHINE LEARNING</p>
+            <div className='rounded-full text-white font-bold  bg-blue-600 font-bold w-fit p-1 px-4 hover:bg-blue-700 '><a href="/home">View Now</a></div>
 
           </div>
 
@@ -109,7 +109,7 @@ At our events, you can join discussions about what's happening in the market, wh
             <div className='flex flex-col gap-y-4 mt-24'>
               {/* <p className='text-sm text-black font-bold flex flex-row gap-1 '> <Icon sx={{ fontSize: 30 }}>call</Icon>CFA Club</p> */}
               <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>call</Icon>CFA Club: +91 9130482382</p>
-              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>mail</Icon>cfa.iiti.ac.in</p>
+              <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>mail</Icon>cfa@iiti.ac.in</p>
               <p className='text-sm text-black font-bold flex flex-row gap-1'><Icon sx={{ fontSize: 30 }}>location_on</Icon>Indian Institute of Technology Indore,Simrol,452020</p>
             </div>
             {/* <Map1/> */}

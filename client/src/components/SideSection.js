@@ -9,10 +9,10 @@ export default function SideSection() {
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start">
             <span className="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">
-              Registrations Open
+             Now Live!
             </span>
             <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">
-              A PRIMER COURSE ON DATA SCIENCE AND MACHINE LEARNING
+                A DEEP DIVE INTO DATA SCIENCE
             </h2>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full"></div>
 
@@ -24,7 +24,7 @@ export default function SideSection() {
             <br />
             <div className="border-l-4 border-#3F51B5 lg:border-l-4 lg:border-#3F51B5 p-1 px-2">
               <div className="flex flex-row text-black  gap-2 font-bold">
-              <Icon  sx={{ fontSize: 30 }}>query_builder_icon</Icon>8 weeks + projects</div>
+              <Icon  sx={{ fontSize: 30 }}>query_builder_icon</Icon>8 Weeks + Projects</div>
               <br />
               <br />
               <div className="flex flex-row gap-2 text-black font-bold ">

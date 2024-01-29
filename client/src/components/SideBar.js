@@ -69,7 +69,7 @@ const Sidebar = ({ setSelectedKeys }) => {
             Leaderboard week 1 | Winter Analytics
             </ModalHeader>
             <ModalBody>
-              <div className="flex flex-col w-full gap-2">
+              {/* <div className="flex flex-col w-full gap-2">
                 <p>Leaderboard for Quiz and Assignment 1</p>
                 <div className="flex flex-row gap-4"><p>1</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
@@ -79,7 +79,7 @@ const Sidebar = ({ setSelectedKeys }) => {
                 <Divider className="my-full" />
                 <div className="flex flex-row gap-4"><p>4</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
-              </div>
+              </div> */}
             </ModalBody>
             <ModalFooter>
               <Button color="danger" variant="light" onPress={onClose}>
