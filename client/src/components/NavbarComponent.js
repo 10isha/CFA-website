@@ -13,7 +13,7 @@ export default function NavbarComponent() {
             <p >Consulting, Finance, and Analytics</p>
             <p>IIT Indore</p>
           </div>
-          <p className="text-xl  "> Course Dashboard | Winter Analytics </p>
+          <p className="text-xl  "> Course Dashboard | DataFusion 1.0 </p>
           <div className="lg:pl-[25%] md:pl-0 ">
       <img src={flux} alt="logo" className="w-32 md:w-20 "></img>  </div>  
           

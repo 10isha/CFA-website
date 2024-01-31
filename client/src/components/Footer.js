@@ -61,7 +61,7 @@ export default function Footer() {
                     </a>
                 </div>
                 <p className="mt-8 text-base leading-6 text-center text-gray-400">
-                    © 2023 IIT Indore, Inc. All rights reserved.
+                    © 2023 CFA Club IIT Indore, Inc. All rights reserved.
                 </p>
             </div>
         </footer>

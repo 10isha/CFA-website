@@ -66,7 +66,7 @@ const Sidebar = ({ setSelectedKeys }) => {
         {(onClose) => (
           <>
             <ModalHeader className="flex flex-col gap-1 font-semibold">
-            Leaderboard week 1 | Winter Analytics
+            Leaderboard week 1 | DataFusion 1.0
             </ModalHeader>
             <ModalBody>
               {/* <div className="flex flex-col w-full gap-2">

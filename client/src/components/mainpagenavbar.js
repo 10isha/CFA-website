@@ -28,7 +28,7 @@ export default function MainNav(){
                   title="Our product"
                   class="font-medium tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  About us
+                  About Us
                 </a>
               </li>
               <li>
@@ -155,7 +155,7 @@ export default function MainNav(){
                             title="About us"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            About us
+                            About Us
                           </a>
                         </li>
                         
