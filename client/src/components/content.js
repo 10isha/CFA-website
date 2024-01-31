@@ -33,10 +33,10 @@ export default function  Content() {
             <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             {/* <MaterialIcon size='large' icon="psychology alt" />   */}
             <div className="flex flex-row gap-2 -mb-8">
-            <Icon sx={{ fontSize: 60 }}>quizicon</Icon>Why Winter</div>
+            <Icon sx={{ fontSize: 60 }}>quizicon</Icon>Why Data</div>
             <br></br>
               <span className=" inline-block text-deep-purple-accent-400">
-                Analytics?
+                Fusion?
               </span>
             </h2>
            
@@ -60,7 +60,7 @@ export default function  Content() {
             <Icon sx={{ fontSize: 60 }}>library_add_check_icon</Icon>What does it</div>
             <br></br>
               <span className=" inline-block text-deep-purple-accent-400">
-                Covers?
+                Cover?
               </span>
             </h2>
            
@@ -95,7 +95,7 @@ export default function  Content() {
             <p className="text-base text-gray-700">
             
               Conducted by the Consulting,Finance & Analytics Club at IIT Indore during the winter, this course,
-               alongside Winter Consulting and various initiatives, extends support to over 25,000 students 
+               extends support to over 25,000 students 
                and professionals annually. Initially designed to train IIT Indore students.
             </p>
           </div>

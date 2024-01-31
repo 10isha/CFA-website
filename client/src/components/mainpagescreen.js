@@ -78,7 +78,7 @@ At our events, you can join discussions about what's happening in the market, wh
 
           <div className='flex flex-col border-l-4 border-white gap-2 p-4 pl-8 mt-24 ml-4'>
 
-            <p className='text-6xl font-bold text-white'>DataFusion 1.0</p>
+            <p className='text-6xl font-bold text-white'>DataFusion</p>
             <p className='text-4xl mt-2 text-white'>A DEEP DIVE INTO DATA SCIENCE AND MACHINE LEARNING</p>
             <div className='rounded-full text-white font-bold  bg-blue-600 font-bold w-fit p-1 px-4 hover:bg-blue-700 '><a href="/home">View Now</a></div>
 

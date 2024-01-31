@@ -30,7 +30,7 @@ export const Nav = () => {
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
               <span className="ml-2 text-xl font-bold tracking-wide text-black-100 uppercase">
-                DataFusion 1.0
+                DataFusion
               </span>
             </a>
             <ul className="flex items-center hidden space-x-8 lg:flex">
