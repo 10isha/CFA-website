@@ -27,24 +27,24 @@ const Sidebar = ({ setSelectedKeys }) => {
       <ModalContent>
         {(onClose) => (
           <>
-            <ModalHeader className="flex flex-col gap-1">Schedule</ModalHeader>
+            <ModalHeader className="flex flex-col gap-1"> Schedule</ModalHeader>
             <Divider className="my-full" />
             <ModalBody>
               <div>
                 <div className="flex flex-col w-full gap-2">
                   <div className="flex flex-row gap-2">
-                    <b>05.07.2023</b>
-                    <p>Quiz 5 and Assignment 5 Deadline</p>
+                    <b>05.02.2024</b>
+                    <p>Starting Timeline for Students</p>
                   </div>
                   <Divider className="my-full" />
                   <div className="flex flex-row gap-2">
-                    <b>05.07.2023</b>
-                    <p>Quiz 5 and Assignment 5 Deadline</p>
+                    <b>11.03.2024</b>
+                    <p>Mid Evaluation</p>
                   </div>
                   <Divider className="my-full" />
                   <div className="flex flex-row gap-2">
-                    <b>05.07.2023</b>
-                    <p>Quiz 5 and Assignment 5 Deadline</p>
+                    <b>11.04.2024</b>
+                    <p>End Evaluation</p>
                   </div>
                 </div>
               </div>
@@ -66,10 +66,10 @@ const Sidebar = ({ setSelectedKeys }) => {
         {(onClose) => (
           <>
             <ModalHeader className="flex flex-col gap-1 font-semibold">
-            Leaderboard week 1 | Winter Analytics
+            Leaderboard week 1 | DataFusion
             </ModalHeader>
             <ModalBody>
-              <div className="flex flex-col w-full gap-2">
+              {/* <div className="flex flex-col w-full gap-2">
                 <p>Leaderboard for Quiz and Assignment 1</p>
                 <div className="flex flex-row gap-4"><p>1</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
@@ -79,7 +79,7 @@ const Sidebar = ({ setSelectedKeys }) => {
                 <Divider className="my-full" />
                 <div className="flex flex-row gap-4"><p>4</p><p>Jahnavi kumar</p></div>
                 <Divider className="my-full" />
-              </div>
+              </div> */}
             </ModalBody>
             <ModalFooter>
               <Button color="danger" variant="light" onPress={onClose}>

@@ -500,16 +500,16 @@ export default function AccordionComponent({selectedKeysSideBar}) {
               // classNames={classNames}
             >
               <TableHeader>
-                <TableColumn className="text-black">Links</TableColumn>
-                <TableColumn className="text-black">Deadline</TableColumn>
-                <TableColumn className="text-black">Instructions</TableColumn>
+                <TableColumn className="text-black"> Event </TableColumn>
+                <TableColumn className="text-black"> Link </TableColumn>
+                <TableColumn className="text-black"> Deadline </TableColumn>
               </TableHeader>
 
               <TableBody>
                 <TableRow key="1">
                   <TableCell>
                     <a href="https://www.youtube.com/watch?v=rzR_cKnkD18">
-                      Day 1
+                      Team Formation
                     </a>{" "}
                   </TableCell>
                   <TableCell>CEO</TableCell>
@@ -574,7 +574,7 @@ export default function AccordionComponent({selectedKeysSideBar}) {
           </div>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-12 text-sm  text-center mt-4 flex flex-col justify-center bg-gray-300 rounded-xl align-middle">copyright @ Consultancy,Finance and Analytics ,IIT Indore</div>
+      <div className="w-full h-12 text-sm  text-center mt-4 flex flex-col justify-center bg-gray-300 rounded-xl align-middle">© 2023 CFA Club IIT Indore, Inc. All rights reserved.</div>
       <div className="w-full h-12 text-md text-center mt-4 border-rounded-2"></div>
 
     </div>

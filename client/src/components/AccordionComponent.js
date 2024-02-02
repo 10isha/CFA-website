@@ -157,7 +157,7 @@ First,  we will begin with learning the basics of Python.</TableCell>
                       
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell><a href="https://www.youtube.com/watch?v=rzR_cKnkD18" >Day 1</a> </TableCell>
+                                <TableCell>Day 1 </TableCell>
                                 <TableCell>Hey, excited for Week 3? Often the data we deal with can have various issues like missing values, categorical values and outliers. Today we will learn about basic techniques to deal with such issues!</TableCell>
                                 <TableCell><a   className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=rzR_cKnkD18&ab_channel=KrishNaik">Outlier Analysis</a></TableCell>
                                 <TableCell><a   className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=P_iMSYQnqac&ab_channel=KrishNaik">Handling Missing Values</a></TableCell>
@@ -216,7 +216,7 @@ First,  we will begin with learning the basics of Python.</TableCell>
                       
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell><a  className="hover:text-blue-300 " href="https://www.youtube.com/watch?v=rzR_cKnkD18" >Day 1</a> </TableCell>
+                                <TableCell>Day 1 </TableCell>
                                 <TableCell>Let us spice things up a bit, we study Linear regression again but this time with Multiple features.</TableCell>
                                 <TableCell><a  className="hover:text-blue-300 " href="https://www.youtube.com/watch?v=WtlvKq_zxPI&list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI&index=21&ab_channel=DeepLearningAI">Linear Regression with Multiple Variables (Videos 21 - 24) </a></TableCell>
                                 <TableCell><a  className="hover:text-blue-300 " href="https://inria.github.io/scikit-learn-mooc/python_scripts/linear_regression_without_sklearn.html">Linear Regression without Scikit-learn</a></TableCell>
@@ -273,7 +273,7 @@ Videos 31 - 36</a></TableCell>
                       
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell><a  className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=rzR_cKnkD18" >Day 1</a> </TableCell>
+                                <TableCell>Day 1 </TableCell>
                                 <TableCell>Continue</TableCell>
                                 <TableCell><a  className="hover:text-blue-300 " href="https://towardsdatascience.com/intuitions-on-l1-and-l2-regularisation-235f2db4c261">L1 L2 Regularization</a></TableCell>
                                 <TableCell><a className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=VqKq78PVO9g&ab_channel=codebasics">Lasso and Ridge Regression</a></TableCell>
@@ -330,7 +330,7 @@ Videos 31 - 36</a></TableCell>
                       
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell><a  className="hover:text-blue-300 " href="https://www.youtube.com/watch?v=rzR_cKnkD18" >Day 1</a> </TableCell>
+                                <TableCell> Day 1 </TableCell>
                                 <TableCell>A model's performance can be greatly increased by tuning its hyperparameters and at the same time it is also important to look for how accurate our model is. For this, we can use Grid search methods and Cross-Validation.</TableCell>
                                 <TableCell><a  className="hover:text-blue-300 " href="https://www.youtube.com/watch?v=fSytzGwwBVw&ab_channel=StatQuestwithJoshStarmer">Cross Validation</a></TableCell>
                                 <TableCell><a  className="hover:text-blue-300 " href="https://www.youtube.com/watch?v=gJo0uNL-5Qw">Code Implementation</a></TableCell>
@@ -386,7 +386,7 @@ Videos 31 - 36</a></TableCell>
                       
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell><a className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=rzR_cKnkD18" >Day 1</a> </TableCell>
+                                <TableCell> Day 1 </TableCell>
                                 <TableCell>Let's look at some more variations of boosting algorithms and how they can be used for specialized tasks.</TableCell>
                                 <TableCell><a className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=LsK-xG1cLYA&ab_channel=StatQuestwithJoshStarmer">Adaboost</a></TableCell>
                                 <TableCell><a className="hover:text-blue-300 "  href="https://www.kaggle.com/learn/intermediate-machine-learning">Kaggle Intermediate microcourse</a></TableCell>
@@ -409,8 +409,8 @@ Videos 31 - 36</a></TableCell>
                             <TableRow key="4">
                                 <TableCell>Day 4</TableCell>
                                 <TableCell>Continued</TableCell>
-                                <TableCell><a  className="hover:text-blue-300 " href="">KNN Implementation</a></TableCell>
-                                <TableCell><a href=""></a></TableCell>
+                                <TableCell><a  className="hover:text-blue-300 " href="https://towardsdatascience.com/k-nearest-neighbors-knn-explained-cbc31849a7e3">KNN Implementation</a></TableCell>
+                                <TableCell></TableCell>
                                 <TableCell></TableCell>
                             </TableRow>
                             <TableRow key="5">
@@ -442,7 +442,7 @@ Videos 31 - 36</a></TableCell>
                       
                         <TableBody>
                             <TableRow key="1">
-                                <TableCell><a  className="hover:text-blue-300 "  href="https://www.youtube.com/watch?v=rzR_cKnkD18" >Day 1</a> </TableCell>
+                                <TableCell> Day 1  </TableCell>
                                 <TableCell>Welcome to the final week of Learning, as next week is Capstone Project This week we will discuss Neural Networks and Unsupervised Learning. Today Let us go into the foundations of Neural Networks</TableCell>
                                 <TableCell><a  className="hover:text-blue-300 " href="https://www.youtube.com/watch?v=CS4cs9xVecg&list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0&index=1&ab_channel=DeepLearningAI">Neural Networks
 (1 - 23) </a></TableCell>
@@ -494,35 +494,28 @@ Videos 31 - 36</a></TableCell>
               // classNames={classNames}
             >
               <TableHeader>
-                <TableColumn className="text-black">Links</TableColumn>
+                <TableColumn className="text-black">Assessment</TableColumn>
+                <TableColumn className="text-black">Link</TableColumn>
                 <TableColumn className="text-black">Deadline</TableColumn>
-                <TableColumn className="text-black">Instructions</TableColumn>
               </TableHeader>
 
               <TableBody>
                 <TableRow key="1">
                   <TableCell>
-                    <a href="https://www.youtube.com/watch?v=rzR_cKnkD18">
-                      Day 1
-                    </a>{" "}
+                      Team Formation
                   </TableCell>
-                  <TableCell>CEO</TableCell>
-                  <TableCell>Active</TableCell>
+                  <TableCell>//link</TableCell>
+                  <TableCell>Active on 05.02.24</TableCell>
                 </TableRow>
                 <TableRow key="2">
-                  <TableCell>Day 2</TableCell>
-                  <TableCell>Technical Lead</TableCell>
-                  <TableCell>Paused</TableCell>
+                  <TableCell>Mid Evaluation</TableCell>
+                  <TableCell>//link</TableCell>
+                  <TableCell>Active on 11.03.24</TableCell>
                 </TableRow>
                 <TableRow key="3">
-                  <TableCell>Day 3</TableCell>
-                  <TableCell>Senior Developer</TableCell>
-                  <TableCell>Active</TableCell>
-                </TableRow>
-                <TableRow key="4">
-                  <TableCell>Day 4</TableCell>
-                  <TableCell>Community Manager</TableCell>
-                  <TableCell>Vacation</TableCell>
+                  <TableCell>End Evaluation</TableCell>
+                  <TableCell>//link</TableCell>
+                  <TableCell>Active on 11.04.24</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -530,8 +523,8 @@ Videos 31 - 36</a></TableCell>
         </AccordionItem>
         <AccordionItem
           key="10"
-          aria-label="Additional Materials"
-          title="Additional material"
+          aria-label="Additional Material"
+          title="Additional Material"
         >
           <div>
             <Table
@@ -549,26 +542,16 @@ Videos 31 - 36</a></TableCell>
               <TableBody>
                 <TableRow key="1">
                   <TableCell>
-                    <a href="https://www.youtube.com/watch?v=rzR_cKnkD18">
-                      Day 1
-                    </a>{" "}
+                      Projects
                   </TableCell>
-                  <TableCell>CEO</TableCell>
-                </TableRow>
-                <TableRow key="2">
-                  <TableCell>Day 2</TableCell>
-                  <TableCell>Technical Lead</TableCell>
-                </TableRow>
-                <TableRow key="3">
-                  <TableCell>Day 3</TableCell>
-                  <TableCell>Senior Developer</TableCell>
+                  <TableCell><a className="hover:text-blue-300 "  href=" https://drive.google.com/file/d/1SaSUojA2_Qaqy56eV5EoG6MSTQOy_CZj/view?usp=sharing">Drive Link</a></TableCell>
                 </TableRow>
               </TableBody>
             </Table>
           </div>
         </AccordionItem>
       </Accordion>
-      <div className="w-full h-12 text-sm  text-center mt-4 flex flex-col justify-center bg-gray-300 rounded-xl align-middle">copyright @ Consultancy,Finance and Analytics ,IIT Indore</div>
+      <div className="w-full h-12 text-sm  text-center mt-4 flex flex-col justify-center bg-gray-300 rounded-xl align-middle">© 2023 CFA Club IIT Indore, Inc. All rights reserved.</div>
       <div className="w-full h-12 text-md text-center mt-4 border-rounded-2"></div>
 
     </div>

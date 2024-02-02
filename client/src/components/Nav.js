@@ -30,7 +30,7 @@ export const Nav = () => {
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
               <span className="ml-2 text-xl font-bold tracking-wide text-black-100 uppercase">
-                Winter Analytics
+                DataFusion
               </span>
             </a>
             <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -41,7 +41,7 @@ export const Nav = () => {
                   title="Our product"
                   className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  About
+                  About Us
                 </a>
               </li>
               <li>
@@ -51,7 +51,7 @@ export const Nav = () => {
                   title="Our product"
                   className="font-medium tracking-wide text-black-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  stats
+                  Statistics
                 </a>
               </li>
               

@@ -42,7 +42,7 @@ export default function LandingPage() {
       <Content/>
       <br></br>
       <Divider className="my-full" />
-      <h1 className='sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 text-center px-5'>SA'23 STATISTICS</h1>
+      <h1 className='sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 text-center px-5'>DataFusion'24 STATISTICS</h1>
       <Statistic />
       <br/><br/>
       <Divider className="my-full" />
