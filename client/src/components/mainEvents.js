@@ -131,30 +131,30 @@ export default function Events() {
 
 
   return(
-<div className = "flex flex-row gap-x-24 md:flex-col md:gap-y-24 mx-24 shadow-2xl  scroll-smooth " >
-    <div className="w-full h-[500px] gap-12 flex flex-row align-center shadow-2xl items-center px-8  mt-2 ">
+<div className = "flex flex-col gap-y-12  lg:flex-col lg:gap-y-24 lg:mx-24 mx-2 shadow-2xl  scroll-smooth " >
+    <div className="lg:w-full lg:h-[500px]  gap-12 flex lg:flex-row flex-col md:h-[800px] align-center shadow-2xl items-center px-8  mt-2 ">
         <img
-                  className="h-full py-2 object-cover"
+                  className="md:h-[300px] lg:py-2 mt-4 lg:h-full h-[200px]  object-cover"
                   src={stock}
                   alt={`Slide ${1}`}
                 />
-                <div className="flex flex-col w-full">
-              <div className="text-md font bold  mb-4">STOCKMARKET MASTERCLASS:</div>  
+                <div className="flex flex-col md:flex-col  w-full">
+              <div className="md:text-2xl font-bold mb-4 text-sm  ">STOCKMARKET MASTERCLASS:</div>  
             <div className="text-xs text-justify">
     The "Stock Market Masterclass - The Secrets to Win the Race of Money" is a comprehensive educational program designed to equip individuals with the knowledge and skills necessary for success in the stock market. The masterclass covers key objectives, including understanding the stock market, risk management, technical and fundamental analysis, portfolio diversification, trading psychology, practical application, and staying abreast of market trends. Participants can expect a hands-on approach, gaining insights into effective investment strategies, risk mitigation, and navigating the complexities of the stock market to achieve their financial goals.
     </div></div>   
       
     </div>
-    <div className="w-full h-full gap-12 flex flex-row align-center px-8 items-center shadow-2xl mt-2 ">
+    <div className="lg:w-full lg:h-[500px]  gap-12 flex lg:flex-row flex-col md:h-[800px] align-center shadow-2xl items-center px-8  mt-2 ">
    
-              <div className="flex flex-col w-full">
-            <div className="text-md font bold mb-4">DATA ANALYTICS WORKSHOP:</div>  
+              <div className="flex flex-col md:flex-col w-full">
+            <div className="md:text-2xl font-bold mb-4 text-sm ">DATA ANALYTICS WORKSHOP:</div>  
           <div className="text-xs text-justify">
           The Data Analytics Workshop offers a condensed, hands-on learning experience for participants keen on mastering analytics. Covering key concepts such as data interpretation, statistical analysis, and visualization tools, the workshop empowers attendees with practical skills. Ideal for professionals seeking to enhance their analytical capabilities, this workshop provides valuable insights for effective data-driven decision-making.
     </div></div>
 
     <img
-                className="w-[400px] py-2 "
+                className="md:w-[400px] w-[200px]  py-2 "
                 src={analytic}
                 alt={`Slide ${1}`}
               />
@@ -163,14 +163,14 @@ export default function Events() {
 
 
 
-    <div className="w-full h-full gap-12 flex flex-row align-center px-8 items-center shadow-2xl mt-2 ">
+    <div className="lg:w-full lg:h-[500px]  gap-12 flex lg:flex-row flex-col md:h-[800px] align-center shadow-2xl items-center px-8  mt-2  ">
     <img
-                className="w-[400px] py-2  "
+                className="md:h-[300px] lg:py-2  lg:h-full h-[200px]  object-cover  "
                 src={finance}
                 alt={`Slide ${1}`}
               />
-              <div className="flex flex-col w-full">
-            <div className="text-md font bold mb-4">  Finance Discussion:</div>  
+              <div className="flex flex-col md:flex-col w-full">
+            <div className="md:text-2xl font-bold mb-4 text-sm ">  Finance Discussion:</div>  
           <div className="text-xs text-justify">
 In the Finance Discussion, the question "Is your portfolio red?" prompts reflection on investment performance. A 'red' portfolio signifies losses, sparking dialogue on market trends, risk management, and strategy adjustments. Participants may share experiences, insights, and coping mechanisms during downturns. This discussion not only delves into financial outcomes but also cultivates a supportive community where investors can exchange ideas to navigate challenging market conditions, potentially leading to informed decisions and improved portfolio resilience.
 
@@ -179,10 +179,10 @@ In the Finance Discussion, the question "Is your portfolio red?" prompts reflect
 
 
 
-<div className="w-full h-full gap-12 flex flex-row align-center px-8 items-center shadow-2xl mt-2 ">
+<div className="lg:w-full lg:h-[500px]  gap-12 flex lg:flex-row flex-col md:h-[800px] align-center shadow-2xl items-center px-8  mt-2 ">
 
-<div className="flex flex-col w-full">
-<div className="text-md font bold mb-4">Kaggle competition:</div>  
+<div className="flex flex-col md:flex-col w-full">
+<div className="md:text-2xl font-bold mb-4 text-sm ">Kaggle competition:</div>  
 <div className="text-xs text-justify">
 The Kaggle Competition on Timeseries Prediction of COVID-19 Death Data challenges data enthusiasts to apply their analytical skills
 in forecasting pandemic outcomes. Participants will grapple with timeseries data, employing statistical models and machine learning
@@ -194,7 +194,7 @@ collaborative solutions to address the evolving challenges posed by the pandemic
 </div>
 
 <img
-            className="w-[400px] py-2 "
+            className="md:h-[300px] lg:py-2  lg:h-full h-[200px]  object-cover "
             src={kaggle}
             alt={`Slide ${1}`}
           />
